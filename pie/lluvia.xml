@@ -78,7 +78,7 @@
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="android_frameworks_av" remote="lluvia" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="crystal" />
+  <!-- project path="frameworks/base" name="android_frameworks_base" remote="crystal" /-->
   <project path="frameworks/native" name="android_frameworks_native" remote="lluvia" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="lluvia" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="lluvia" />
