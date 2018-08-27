@@ -5,6 +5,10 @@
           fetch="https://android.googlesource.com"
           review="https://android-review.googlesource.com/" />
 
+   <remote name="los"
+          fetch="https://github.com/LineageOS"
+          revision="refs/heads/lineage-16.0" />
+
   <default revision="refs/tags/android-9.0.0_r3"
            remote="aosp"
            sync-j="4"
@@ -706,6 +710,7 @@
 
   <!-- Add all lluvia repos -->
   <include name="pie/lluvia.xml" />
+  <include name="pie/externals.xml" />
+  <include name="pie/hals.xml" />
 
 </manifest>
-

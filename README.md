@@ -25,7 +25,7 @@
 
    # Install Repo in the created directory
    # Use a real name/email combination, if you intend to submit patches
-   $ repo init -u https://github.com/LLuvia-p/manifest -b lluvia-3.x
+   $ repo init -u https://github.com/LLuvia-Pie/manifest -b lluvia-3.x
    ```
    
    - ## Necessary tools/packages to build LLuvia ##
