@@ -5,9 +5,26 @@
           fetch="https://android.googlesource.com"
           review="https://android-review.googlesource.com/" />
 
+  
+   <!-- Remotes -->
+  <remote name="github"
+          fetch="https://github.com/" />
+
+  <remote name="3.x"
+          fetch="https://github.com/LLuvia-Pie"
+          revision="lluvia-3.x"/>
+
+  <remote name="LLuviaDevices"
+          fetch="https://github.com/LLuviaDevices"
+          revision="lluvia-3.x" />
+
+  <remote name="crystal-x"
+          fetch="https://gitlab.com/LLuviaOS"
+          revision="lluvia-3.x" />
+
    <remote name="los"
           fetch="https://github.com/LineageOS"
-          revision="refs/heads/lineage-16.0" />
+          revision="lineage-16.0" />
 
   <default revision="refs/tags/android-9.0.0_r3"
            remote="aosp"

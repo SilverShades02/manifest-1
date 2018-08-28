@@ -1,26 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- Remotes -->
-  <remote name="github"
-          fetch="https://github.com/" />
-
-  <remote name="crystal"
-          fetch="https://github.com/LLuvia-Pie"
-          revision="lluvia-3.x"/>
-
-  <remote name="LLuviaDevices"
-          fetch="https://github.com/LLuviaDevices"
-          revision="lluvia-3.x" />
-
-  <remote name="crystal-x"
-          fetch="https://gitlab.com/LLuviaOS"
-          revision="lluvia-3.x" />
-
   <!-- lluvia Repos -->
-  <project name="bionic" path="bionic" remote="crsytal" />
-  <project name="bootable_recovery" path="bootable/recovery" remote="crsytal" />
-  <project name="build" path="build/make" groups="pdk" remote="crsytal">
+  <project name="bionic" path="bionic" remote="3.x" />
+  <project name="bootable_recovery" path="bootable/recovery" remote="3.x" />
+  <project name="build" path="build/make" groups="pdk" remote="3.x">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -29,26 +13,26 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project name="build_soong" path="build/soong" remote="crsytal" groups="pdk,tradefed" >
+  <project name="build_soong" path="build/soong" remote="3.x" groups="pdk,tradefed" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project name="external_perfetto" path="external/perfetto" remote="crsytal" />
-  <project name="external_selinux" path="external/selinux" remote="crsytal" />
-  <project name="external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="crsytal" />
-  <project name="external_tinycompress" path="external/tinycompress"  remote="crsytal" />
-  <project name="frameworks_av" path="frameworks/av" remote="crsytal" />
-  <project name="frameworks_base" path="frameworks/base" remote="crsytal-x" />
-  <project name="frameworks_compile_mclinker" path="frameworks/compile/mclinker" remote="crsytal" />
-  <project name="frameworks_native" path="frameworks/native" remote="crsytal" />
-  <project name="hardware_libhardware" path="hardware/libhardware" remote="crsytal" />
-  <project name="hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="crsytal" />
-  <project name="hardware_ril" path="hardware/ril" remote="crsytal" />
-  <project name="prebuilts_build-tools" path="prebuilts/build-tools" remote="crsytal" />
-  <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" remote="llui" clone-depth="1" revision="crsytal" />
-  <project name="system_bt"  path="system/bt" remote="crsytal" />
-  <project name="system_core" path="system/core" remote="crsytal" />
-  <project name="system_vold" path="system/vold" remote="crsytal" />  
-  <project name="system_tools_dtbtool" path="system/tools/dtbtool" remote="crystal" />
-  <project name="vendor_lluvia" path="vendor/lluvia" remote="crsytal" />
+  <project name="external_perfetto" path="external/perfetto" remote="3.x" />
+  <project name="external_selinux" path="external/selinux" remote="3.x" />
+  <project name="external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="3.x" />
+  <project name="external_tinycompress" path="external/tinycompress"  remote="3.x" />
+  <project name="frameworks_av" path="frameworks/av" remote="3.x" />
+  <project name="frameworks_base" path="frameworks/base" remote="crystal-x" />
+  <project name="frameworks_compile_mclinker" path="frameworks/compile/mclinker" remote="3.x" />
+  <project name="frameworks_native" path="frameworks/native" remote="3.x" />
+  <project name="hardware_libhardware" path="hardware/libhardware" remote="3.x" />
+  <project name="hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="3.x" />
+  <project name="hardware_ril" path="hardware/ril" remote="3.x" />
+  <project name="prebuilts_build-tools" path="prebuilts/build-tools" remote="3.x" />
+  <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" remote="3.x" clone-depth="1" />
+  <project name="system_bt"  path="system/bt" remote="3.x" />
+  <project name="system_core" path="system/core" remote="3.x" />
+  <project name="system_vold" path="system/vold" remote="3.x" />  
+  <project name="system_tools_dtbtool" path="system/tools/dtbtool" remote="3.x" />
+  <project name="vendor_lluvia" path="vendor/lluvia" remote="3.x" />
 </manifest>

@@ -84,5 +84,7 @@
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/vold" />
+  <remove-project name="platform/prebuilts/clang/host/linux-x86" />
+
 </manifest>
 
