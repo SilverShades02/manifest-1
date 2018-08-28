@@ -64,6 +64,7 @@
   <remove-project name="platform/hardware/qcom/media" />
   <remove-project name="platform/hardware/qcom/power" />
   <remove-project name="platform/hardware/qcom/wlan" />
+  <remove-project name="platform/hardware/qcom/gps" />
 
   <!-- Remove projects -->
   <remove-project name="platform/bionic" />

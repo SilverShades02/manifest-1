@@ -32,7 +32,8 @@
   <!-- project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" remote="3.x" clone-depth="1" /-->
   <project name="system_bt"  path="system/bt" remote="3.x" />
   <project name="system_core" path="system/core" remote="3.x" />
-  <project name="system_vold" path="system/vold" remote="3.x" />  
+  <project name="system_vold" path="system/vold" remote="3.x" />
+  <project name="system_qcom" path="system/qcom" remote="3.x" /> 
   <project name="system_tools_dtbtool" path="system/tools/dtbtool" remote="3.x" />
   <project name="vendor_lluvia" path="vendor/lluvia" remote="3.x" />
 </manifest>
