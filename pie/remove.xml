@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-
   <!-- Remove unused device repos -->
   <remove-project name="device/common" />
   <remove-project name="device/generic/arm64" />

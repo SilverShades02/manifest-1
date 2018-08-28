@@ -38,7 +38,7 @@
   <project name="external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="crsytal" />
   <project name="external_tinycompress" path="external/tinycompress"  remote="crsytal" />
   <project name="frameworks_av" path="frameworks/av" remote="crsytal" />
-  <project name="frameworks_base" path="frameworks/base" remote="crsytal" />
+  <project name="frameworks_base" path="frameworks/base" remote="crsytal-x" />
   <project name="frameworks_compile_mclinker" path="frameworks/compile/mclinker" remote="crsytal" />
   <project name="frameworks_native" path="frameworks/native" remote="crsytal" />
   <project name="hardware_libhardware" path="hardware/libhardware" remote="crsytal" />
@@ -49,5 +49,6 @@
   <project name="system_bt"  path="system/bt" remote="crsytal" />
   <project name="system_core" path="system/core" remote="crsytal" />
   <project name="system_vold" path="system/vold" remote="crsytal" />  
-  <project name="system_tools_dtbtool"path="system/tools/dtbtool" remote="crystal" />
+  <project name="system_tools_dtbtool" path="system/tools/dtbtool" remote="crystal" />
   <project name="vendor_lluvia" path="vendor/lluvia" remote="crsytal" />
+</manifest>
