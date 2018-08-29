@@ -728,6 +728,7 @@
   <!-- Add all lluvia repos -->
   <include name="pie/lluvia.xml" />
   <include name="pie/externals.xml" />
+  <include name="pie/packages.xml" />
   <include name="pie/hals.xml" />
 
 </manifest>

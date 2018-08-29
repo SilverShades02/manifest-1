@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+      <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="3.x" />
+      <project path="packages/apps/Settings" name="packages_apps_Settings" remote="3.x" />
+
+</manifest>
