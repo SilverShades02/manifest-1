@@ -26,6 +26,10 @@
           fetch="https://github.com/LineageOS"
           revision="lineage-16.0" />
 
+   <remote name="lluvia"
+        fetch="https://github.com/LLuviaOS"
+        revision="lluvia-3.x" />
+
   <default revision="refs/tags/android-9.0.0_r3"
            remote="aosp"
            sync-j="4"
