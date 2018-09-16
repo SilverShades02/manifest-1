@@ -29,6 +29,8 @@
   <project name="hardware_libhardware" path="hardware/libhardware" remote="3.x" />
   <project name="hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="3.x" />
   <project name="hardware_ril" path="hardware/ril" remote="3.x" />
+  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="3.x" />
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="3.x" />
   <project name="prebuilts_build-tools" path="prebuilts/build-tools" remote="3.x" />
   <!-- project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" remote="3.x" clone-depth="1" /-->
   <project name="system_bt"  path="system/bt" remote="3.x" />
