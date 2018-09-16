@@ -17,6 +17,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="build/kati" name="build_kati" remote="3.x" />
   <project name="external_perfetto" path="external/perfetto" remote="3.x" />
   <project name="external_selinux" path="external/selinux" remote="3.x" />
   <project name="external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="3.x" />
